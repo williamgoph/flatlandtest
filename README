@@ -1,0 +1,35 @@
+==================
+Pre-run Todo list
+==================
+
+1) Project was create in MS Visual Studio 2010 Express (sorry its the version that I have in my PC)
+
+2) Attach DB Test/APP_Data/test.mdf (created in MSSQL Server 2005 Express - sorry again its the version that I have in my PC)
+
+3) Just in-case it doesn't attach, create a DB name 'test' and execute Test/DBScripts/entity.sql
+
+4) config file is in Test/config.json
+
+5) Open the solution file (Test.sln)
+
+6) In project explorer navigate to Models/entity.cs, in GetConfig function please change configFile variable as necessary (point it to where config.json is)
+
+
+======================
+Senior Developer Test
+======================
+
+4.) Sorry I don't have any experience in unit testing in Microsoft environment.
+
+-OPTIONAL-
+
+5) 
+
+6) Lessen DB transaction and implement data archiving.
+
+7) I had simply used DataTable with undefined schema, schema will be define by the sql statement or stored procedure upon populating it. Though a bit crude but I had used it effectively and believe this is very dynamic and provide very good performance.
+
+8) Rebuild the indexes.
+
+9) LINQ or just I'll simply execute a sql query statement. 
+
